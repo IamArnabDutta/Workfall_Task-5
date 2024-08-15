@@ -1,0 +1,178 @@
+.navbar-link {
+    color: #000000;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.navbar-item {
+    padding: 0.5rem 1.11rem;
+}
+
+
+
+
+.article-container {
+    background-color: #FBF7F4;
+}
+
+.article-content {
+    text-align: center;
+}
+
+.article-img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+.header-section {
+    background-color: white;
+}
+
+.header-section .title {
+    color: #000000;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.button-update {
+    background-color: #FF6745;
+    color: #FFFFFF;
+}
+
+/* Footer.css */
+.footer {
+    background-color: #232323;
+  }
+  
+  .footer-logo {
+    width: 62px;
+    height: 48px;
+  }
+  
+  .footer-logo-text {
+    color: #F16429;
+    font-weight: 500;
+    font-size: 30px;
+  }
+  
+  .footer-heading {
+    color: #FCB28E;
+    font-weight: 700;
+    font-size: 18px;
+  }
+  
+  .footer-link {
+    color: #e7e5e4;
+  }
+  
+  .footer-link-hover:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-text {
+    font-weight: 500;
+    font-size: 16px;
+  }
+  
+  .footer-icon {
+    margin: 0 4px;
+  }
+  
+  .footer-copyright {
+    color: #e7e5e4;
+  }
+  /* Footer.css */
+.footer-hr {
+    margin-left: 44px;
+    margin-right: 44px;
+    background-color: #D9D9D9;
+    height: 1px
+
+;
+  }
+  .footer-icon {
+    margin: 0 4px; 
+   
+    height: auto; 
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .footer-icon {
+      max-width: 2px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .footer-icon {
+      max-width: 14px; 
+     
+      
+    }
+    .footer-text {
+        font-weight: 200;
+        font-size: 12px;
+      }
+      
+
+  }
+  @media (max-width: 400px) {
+    .footer-icon {
+      max-width: 14px; 
+     
+      
+    }
+    .footer-text {
+        font-weight: 100;
+        font-size: 12px;
+        padding-left: 0px;
+      }
+      .footer-logo-text {
+       
+        font-weight: 300;
+        font-size: 20px;
+      }
+      .footer-logo {
+        margin-left:8px ;
+        width: 40px;
+        height: 30px;
+      }
+      .footer-heading {
+        
+        font-weight: 500;
+        font-size: 14px;
+      }
+      
+
+  }
+  
+
+  .line-with-text {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+
+    position: relative;
+  }
+
+  .line {
+    flex: 1;
+    border: none;
+    border-top: 1px solid #17416880;
+
+    margin: 0;
+  }
+  .text {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+
+    padding: 0 10px;
+
+  }
